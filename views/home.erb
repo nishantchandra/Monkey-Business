@@ -1,8 +1,29 @@
-<h3>Monkey Business</h3>
-<h5>Better than Google!</h5>
-
-
+<link rel="stylesheet" type="text/css" href="style.css">
 <div id="container">
-  <textarea>Enter Search terms</textarea>
-  <button>Go Bananas!</button>
+  <h2>Monkey Business</h2>
+  <h5>Better than Google!</h5>
+
+ <form name="input" method="post">
+  <label>
+    <span>Search</span><input type="text" name="search">
+  </label>
+  <label>
+    <br>
+    <select name="engine" id="engine">
+      <option value="Google">Google</option>
+      <option value="Yahoo">Yahoo</option>
+      <option value="Bing">Bing</option>
+      <option value="Ask">Ask.com</option>
+      <option value="Youtube">Youtube</option>
+      <option value="Pinterest">Pinterest</option>
+      <option value="Reddit">Reddit</option>
+      <option value="Baidu">Baidu</option>
+      <option value="Stack">Stack Overflow</option>
+    </select>
+    <!-- <span>Search Engine</span><input type="text" name="type"> -->
+  <label>
+  <input type="submit" value="Go Bananas!" id="button">
+  <img id="monkey" src="images/monkey.jpg" alt="Monkey" >
+ </form>
 </div>
+
