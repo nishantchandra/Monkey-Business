@@ -26,27 +26,28 @@
 }
 
 input {
-  width:375px;
+  width:550px;
+  margin-top: 8%;
   display:block;
   border: 1px solid #999;
-  height: 25px;
+  height: 35px;
 }
 
 #engine {
-  position: absolute
-  right: 400px;
+  margin-top: -19%;
+  margin-left:24%;
   bottom: 300px;
 }
 
 #button {
-  width:100px;
-  position:absolute;
+  width:150px;
+  margin-top: 8%;
   right:190px;
   bottom:210px;
   background:#09C;
   color:#fff;
   font-family: Tahoma, Geneva, sans-serif;
-  height:30px;
+  height:50px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -63,17 +64,22 @@ textarea:focus, input:focus {
 }
 
 #monkey{
-  position: absolute;
-  right:370px;
-  bottom:50px;
+  margin-top: -15%;
+  margin-left: 38%;
 }
 
 h2 {
+  font-size: 50px;
   text-align: absolute;
 
 }
 
 h5 {
+  font-size: 28px;
   text-align: absolute;
+}
+
+span {
+  font-size: 25px;
 }
 
